@@ -56,6 +56,33 @@ public void mt_getResult(){
 1. 請執行下面Git操作 (請參照題目pdf)
 
 Ans:
+class Person:
+    name: str
+    age: int
+    def _ _init_ _(seif, name: str, age: int):
+        self.name = name
+        self.age = age
+        pass
+    def greet(self) -> str:
+        return f"Hello,my name is {self.name} and I am{
+            self.age} years old."
+        pass
+    def haveBirthday(self):
+        self.age += 1
+        print(f"Happy birthday, {self.name}! You are now
+            {self.age} years old.)
+        pass
+    pass
+
+ # 創建 Person 類的實例
+ Personl =Person(name="Alice", age=30)
+ # 呼叫 greet 方法
+ print(Personl.greet()) # 輸出: Hello,my name is Alice and I am 30 years old.
+ # 呼叫 haveBirthday 方法
+ Personl.haveBirthday() # 輸出: Happy birthday, Alice! You are now
+           31 years old.                    
+# 呼叫 greet 方法
+print(Personl.greet()) 輸出: Hello,my name is Alice and I am 31 years old.
 
 
 
