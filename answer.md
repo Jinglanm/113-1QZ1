@@ -56,6 +56,7 @@ public void mt_getResult(){
 1. 請執行下面Git操作 (請參照題目pdf)
 
 Ans:
+```py
 class Person:
     name: str
     age: int
@@ -83,7 +84,7 @@ class Person:
            31 years old.                    
 # 呼叫 greet 方法
 print(Personl.greet()) 輸出: Hello,my name is Alice and I am 31 years old.
-
+```
 
 
 ## 個人認為完成作業須具備觀念
