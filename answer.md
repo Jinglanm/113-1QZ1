@@ -71,7 +71,7 @@ class Person:
     def haveBirthday(self):
         self.age += 1
         print(f"Happy birthday, {self.name}! You are now
-            {self.age} years old.)
+            {self.age} years old.")
         pass
     pass
 
